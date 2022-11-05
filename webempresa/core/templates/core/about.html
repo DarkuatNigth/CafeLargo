@@ -1,0 +1,36 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Historia{% endblock %}
+
+{% block content %}
+<section class="page-section about-heading">
+  <div class="container">
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/about.jpg' %}" alt="">
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Nuestra historia</span>
+              <span class="section-heading-lower">Tradición familiar Lojana</span>
+            </h2>
+            <p>Nuestro cultivo de café empezó desde mis abuelos, hace ya más de 60 años, siendo el café tradicional propiamente criollo, 
+              se lo pelaba manualmente en pedazos de madera llamados porrones, y se lo tostaba en un tiesto de barro y con el pasar del tiempo se fue mejorando la calidad de la planta siendo sembrada en altura. </p>
+            <p>Desde ese entonces mis tías viajaron a Quito y a distintas ciudades, 
+              entonces ya mis abuelos mandaban el café molido a sus hijas que vivían en otras ciudades,
+               y no únicamente mis abuelos fueron los pioneros, sino que todos los cafeteros tenían familias en 
+               las ciudades grandes, y así se hizo conocido el gran café lojano</p>
+               <p>
+                Hace 15 años se empezó ya a procesar manualmente para comercializar, hemos ido mejorando
+                 obteniendo mayores resultados gracias al cuidado y dedicación de nuestro café,
+                 y hoy en día entramos al mercado con el mejor café gourmet lojano
+               </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
